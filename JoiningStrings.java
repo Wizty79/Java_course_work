@@ -3,5 +3,9 @@ public class JoiningStrings {
         String sentence = "His name is: ";
         String placeholder = "Harry";
         System.out.println(sentence + placeholder);
+
+        int points = 50;
+        String announcement = " points for Griffindor";
+        System.out.println(points + announcement);
     }
 }
