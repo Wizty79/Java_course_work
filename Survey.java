@@ -27,7 +27,10 @@ public class Survey {
         int foodAmount = scan.nextInt();
         counter++;
 
-        System.out.println("Thank you " + name + " for answering all " + counter + "questions");
+        System.out.println("\nThank you " + name + " for answering all " + counter + "questions");
+        System.out.println("\nYour fast food expenses are " + (foodPrice/coffeePrice) + " times more then your coffee expenses");
+        System.out.println("\nWeekly, you spent " + (coffeeAMount*coffeePrice) + " on coffee");
+        System.out.println("\nWeekly, you spent " + (foodAmount*foodPrice) + " on fast food");
 
         scan.close();
     }
