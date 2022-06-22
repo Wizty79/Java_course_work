@@ -1,6 +1,6 @@
 public class IfElse {
     public static void main(String[] args) {
-        int grade = 65;
+        int grade = 40;
 
         if (grade >= 80) {
             System.out.println("You got an A");
@@ -11,7 +11,7 @@ public class IfElse {
         } else if (grade >= 50) {
             System.out.println("You got a D");
         } else {
-            System.out.println("Study harder next time!");
+            System.out.println("you got asn F");
         }
 
     }
