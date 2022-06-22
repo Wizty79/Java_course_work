@@ -15,8 +15,12 @@ public class SwitchStatements {
             case 10: System.out.println("October"); break;
             case 11: System.out.println("November"); break;
             case 12: System.out.println("December"); break;
-            default: System.out.println("Please enter valid month"); break;
+            default: System.out.println("Please enter valid month"); //no need for a break statement as it's the last line of code
         }
         
     }
 }
+
+/* most of the time you can and will use if else instead of switch. An if else statement can test any condition, 
+an switch statement can only comparee one value against a list of values. However in the case above it would end 
+up looking messy if done with if else */
