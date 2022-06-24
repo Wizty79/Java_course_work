@@ -1,4 +1,4 @@
-public class Chorus {
+public class FunctionsChorus {
     public static void main(String[] args) { //calling on the function
         singChorus();
         singChorus();
