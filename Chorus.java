@@ -1,12 +1,12 @@
 public class Chorus {
-    public static void main(String[] args) {
+    public static void main(String[] args) { //calling on the function
         singChorus();
         singChorus();
         singChorus();
     }
 
 
-    public static void singChorus() {
+    public static void singChorus() {   //function that "sings"/prints the chorus
         System.out.println("Don't blame it on the sunshine");
         System.out.println("Don't blame it on the moonlight");
         System.out.println("Don't blame it on the good times");
