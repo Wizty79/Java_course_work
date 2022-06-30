@@ -21,8 +21,8 @@ public class WhileLoops {
 }
 */
 
-/*same result fort both the for and while loop
+/*same result for both the for and while loop
 but as we know the specific number of times this loops should run
-we need to use the for loop, which obviously also is cleqaner and easier to use in this case.
+we need to use the for loop, which obviously also is cleaner and easier to use in this case.
  */
 
