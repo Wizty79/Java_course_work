@@ -5,8 +5,8 @@ public class RockParchmentSheers {
         
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Let's play Rock PArchment SHeers.");
-        System.out.println("When I say 'shoot', CHoose: rock, parchment, or sheers");
+        System.out.println("Let's play Rock Parchment Sheers.");
+        System.out.println("When I say 'shoot', Choose: rock, parchment, or sheers");
         System.out.println("Are you ready? Write 'yes' if you are.");
 
         String ready = scan.next();
@@ -21,7 +21,7 @@ public class RockParchmentSheers {
 
         scan.close();
 
-       public static String computerChoice() {
+       public static String computerChoice () {
        double randomNumber = Math.random() * 3; 
        int integer = (int)randomNumber; 
 
