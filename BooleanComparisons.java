@@ -3,7 +3,7 @@ public class BooleanComparisons {
         int chemistryGrade = 95;
         int biologyGrade = 75;
 
-        System.out.println(biologyGrade > chemistryGrade); //result is flase, a boolean value 
+        System.out.println(biologyGrade > chemistryGrade); //result is false, a boolean value 
 
         double sales = 37.55;
         double costs = 5.55;
